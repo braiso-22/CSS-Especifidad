@@ -1,10 +1,14 @@
+/*Sin el important es lo menos importante*/
 h1 {
+  /*Esto va por encima incluso de los estilos en linea*/
   color: blue !important;
 }
 
+/*la clase va por encima que los atributos */
 .color-red {
   color: red;
 }
+/*los id van por encima de las clases*/
 #color-green {
   color: green;
 }
